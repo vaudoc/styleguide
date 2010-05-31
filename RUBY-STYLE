@@ -122,6 +122,12 @@ when you contribute to my code, please follow these rules:
 
 * Code in a functional way, avoid mutation when it makes sense.
 
+* Try to have methods either return the state of the object and have
+  no side effects, or return self and have side effects. This is
+  otherwise known as Command-query separation (CQS):
+
+    http://en.wikipedia.org/wiki/Command-query_separation
+
 * Do not mutate arguments unless that is the purpose of the method.
 
 * Do not mess around in core classes when writing libraries.
