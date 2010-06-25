@@ -117,6 +117,9 @@ when you contribute to my code, please follow these rules:
 
 * Avoid needless metaprogramming.
 
+* Only give a method one purpose for existing. If you pass in a boolean
+  to a method, what you're saying is that this method has two different
+  behaviours. Just split it into two single purpose methods.
 
 == General:
 
