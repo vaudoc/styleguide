@@ -119,7 +119,16 @@ when you contribute to my code, please follow these rules:
 
 * Only give a method one purpose for existing. If you pass in a boolean
   to a method, what you're saying is that this method has two different
-  behaviours. Just split it into two single purpose methods.
+  behaviours. Just split it into two single purpose methods. If you have
+  to use the words "AND" or "OR" to describe what the method does it
+  probably does too much.
+
+* If sections of a method are logically separate by blank lines, then
+  that's probably a sign that those sections should be split into separate
+  methods.
+
+* Try to keep methods at no more than 10 lines long, and preferably
+  5 or less.
 
 == General:
 
