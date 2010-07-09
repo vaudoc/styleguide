@@ -109,6 +109,8 @@ when you contribute to my code, please follow these rules:
 
 * Avoid alias when alias_method will do.
 
+* Always freeze objects assigned to constants.
+
 * Use OptionParser for parsing complex command line options and
   ruby -s for trivial command line options.
 
