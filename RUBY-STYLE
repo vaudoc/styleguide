@@ -61,8 +61,7 @@ when you contribute to my code, please follow these rules:
 
 * Use ||= freely.
 
-* Use non-OO regexps (they won't make the code better). Freely use
-  =~, $0-9, $~, $` and $' when needed.
+* Use OO regexps, and avoid =~ $0-9, $~, $` and $' when possible.
 
 
 == Naming:
