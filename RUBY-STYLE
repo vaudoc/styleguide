@@ -19,7 +19,7 @@ when you contribute to my code, please follow these rules:
 
 * No spaces after (, [ and before ], ).
 
-* Indent when two spaces deeper than case.
+* Indent `when` two spaces deeper than `case`.
 
 * Use an empty line before the return value of a method (unless it
   only has one line), and an empty line between defs.
