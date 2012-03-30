@@ -80,7 +80,9 @@ when you contribute to my code, please follow these rules:
 
 * Use names prefixed with _ for unused variables.
 
-* Do not use inject in library code. In app code it is ok.
+* Do not use Enumerable#inject when the "memo" object does not change between
+  iterations, use Enumerable#each_with_object instead (in ruby 1.9,
+  active_support and backports).
 
 * When defining binary operators, name the argument "other".
 
