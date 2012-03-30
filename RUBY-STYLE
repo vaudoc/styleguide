@@ -84,7 +84,8 @@ when you contribute to my code, please follow these rules:
   iterations, use Enumerable#each_with_object instead (in ruby 1.9,
   active_support and backports).
 
-* When defining binary operators, name the argument "other".
+* When defining a predicate method that compares against another object of
+  a similar type, name the argument "other".
 
 * Prefer map over collect, detect over find, select over find_all.
 
